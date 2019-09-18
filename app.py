@@ -7,21 +7,20 @@ from collections import deque, Counter
 
 ########### Define your variables ######
 
-myheading1='Try out a palindrome here!'
-initial_value='A nut for a jar of tuna'
+myheading1='I am experimenting'
+initial_value='1234'
 longtext='''
         _Suggestions you might try:_
-        * A man, a plan, a canal: Panama!
-        * Go hang a salami I'm a lasanga hog
-        * God! Nate bit a Tibetan dog!
+        * 1234
+        * 4321
         '''
-tabtitle = 'racecar'
+tabtitle = 'TRY&ERROR'
 sourceurl = 'https://www.grammarly.com/blog/16-surprisingly-funny-palindromes/'
-githublink = 'https://github.com/austinlasseter/dash-simple-callback'
+githublink = 'https://github.com/ayk-oishi/dash-simple-callback'
 
 ########### Define a function for your callback:
 def my_function(letters):
-    return(letters[::-1])
+    return(letters[::-2])
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
